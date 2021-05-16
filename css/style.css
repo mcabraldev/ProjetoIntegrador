@@ -68,3 +68,18 @@ main section.destaques .container article .info a {
     font-size: 36px;
     text-align: center;
 }
+
+@media (max-width: 1000px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    main section.destaques .container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main section.destaques .container article {
+        margin: 20px 0;
+    }
+}
